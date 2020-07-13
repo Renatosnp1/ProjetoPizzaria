@@ -1,0 +1,1 @@
+A ideia de criar um site de pizzaria usando o Flask em python.
