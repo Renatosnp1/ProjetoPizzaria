@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="form">
+        <h1>Cadastro Usuario</h1>
+        <form method="post" action="">
+            Nome: <input name="nome" type="text"> <br>
+            Email: <input name="email" type="email"> <br>
+            Senha: <input name="password" type="password"> <br>
+            <button>Salvar</button><br>
+            <a href=" {{ url_for('login') }} ">Voltar</a>
+        </form>
+    </div>
+</body>
+</html>

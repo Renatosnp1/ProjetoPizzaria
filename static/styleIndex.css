@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+
+ul{
+    background-color: rgba(26, 23, 23, 0.753);
+    list-style: none;
+    margin: 0;
+    height: 40px;
+}
+li{
+    margin: 8px;
+    display: inline-block;
+    margin-left: 50px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none; 
+    font-size: 15px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color:  rgba(20, 19, 19, 0.658);
+    padding: 5px;
+}
