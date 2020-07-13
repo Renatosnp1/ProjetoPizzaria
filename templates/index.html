@@ -9,18 +9,23 @@
 <body>
     <header>
 
-        <div>
+        <div id="cabecalho">
             <ul>
                 <li><a href="">Cardápio</a></li>
                 <li><a href="">Bebibas</a></li>
                 <li><a href="">Promoções</a></li>
                 <li><a href="">Contato</a></li>
-                <li><a href="{{ url_for('login') }}">Login</a></li>
-            </ul>       
+                <li><a href="{{ url_for('cadastrar') }}">Cadastro</a></li>
+            </ul>
+            <form action="{{ url_for('cadastrar') }}" method="POST">
+                <input type="text" name="login" id="login">
+                <input type="password" name="password" id="password">
+                <input type="submit" value="Entrar" id="submit">
+            </form>
         </div>
     </header>
-
-
-    
+    <div>
+        <img src="../static/img/pizza.jpg" alt="">
+    </div>
 </body>
 </html>

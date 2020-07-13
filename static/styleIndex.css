@@ -5,16 +5,22 @@ body{
 }
 
 
+#cabecalho{
+    background-color: rgba(194, 66, 16, 0.753);
+}
+
 ul{
-    background-color: rgba(26, 23, 23, 0.753);
+    position: relative;
     list-style: none;
     margin: 0;
+    width: 60%;
     height: 40px;
+
 }
 li{
-    margin: 8px;
+    margin: 9px;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 20px;
     color: white;
 }
 
@@ -28,4 +34,31 @@ a{
 a:hover{
     background-color:  rgba(20, 19, 19, 0.658);
     padding: 5px;
+}
+
+form{
+    position: absolute;
+    right: 30px;
+    margin-top: -34px;
+    font-size: 5px;
+}
+
+input#password {
+    margin-right: 10px;
+    width: 100px;
+    font-size: 12px;
+}
+input#login {
+    margin-right: 10px;
+    width: 250px;
+    font-size: 12px;
+}
+
+input#submit {
+    font-size: 12px;
+}
+
+
+div img{
+    width: 100%;
 }
