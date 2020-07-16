@@ -1,0 +1,20 @@
+Estrutura banco de dados "ProjetoPizzaria"
+
+
+    table "endereco"
+*id
+*nome
+*telefone
+*estado
+*cidade
+*bairro
+*rua
+*numero
+*complemento
+*senha
+
+
+    table "Pizza"
+*sabores
+*valor
+*indedientes

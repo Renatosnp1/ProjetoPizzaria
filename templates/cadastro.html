@@ -10,13 +10,21 @@
     
 
     <div id="form">
-        <h1>Cadastro Usuario</h1>
-        <form method="post" action="">
-            Nome: <input name="nome" type="text"> <br>
-            Email: <input name="email" type="email"> <br>
-            Senha: <input name="password" type="password"> <br>
+        <h1>Cadastro Cliente</h1>
+        <form method="post" action="{{ url_for('index') }}">
+            <input name="nome" type="text" placeholder="Nome" maxlength="50"><br>
+            <input name="email" type="email" placeholder="Email"> <br>
+            <input name="telefone" type="tel" placeholder="Telefone" maxlength="11"><br>
+            <select name="uf" id="uf"></select>
+            <input name="cidade" type="text" placeholder="Cidade"><br>
+            <input name="bairro" type="text" placeholder="Bairro"><br>
+            <input name="rua" type="text" placeholder="Rua"><br>
+            <input name="numero" type="text" placeholder="Numero"><br>
+            <input name="complemento" type="text" placeholder="Complemento"><br>
+            <input name="password" type="password" placeholder="Password"><br>
+            <input name="password" type="password" placeholder="Confime Password"><br>
             <button>Salvar</button><br>
-            <a href=" {{ url_for('index') }} ">Voltar</a>
+            <a href=" {{url_for('index')}} ">Voltar</a>
         </form>
     </div>
 </body>
